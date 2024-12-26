@@ -1,0 +1,34 @@
+{
+	title:"Spider Man",
+	video_src:"video.mp4",
+	img_src:"img.png",
+	description: "Spider man is a hello spider man guys hello bue the RR"
+	for: "home"
+	
+}
+
+{
+	title:"spidermanHD-4k-black-spider",
+	name: "black-spider",
+	src:"./fjdks.jpg",
+	alt:"black-spider-4k"
+}
+
+------------------------------------------
+
+
+SEARCH-BAR  = DB
+
+nav-search-bar :
+	{
+		recomendedOption : 'Spider man',
+		collectionname : 'spiderman'
+	}
+	{
+		recomendedOption : 'ben10',
+		collectionname : 'ben10'
+	}
+	{
+		recomendedOption : 'Bat Man',
+		collectionname : 'batman'
+	}

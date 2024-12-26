@@ -1,0 +1,53 @@
+{
+    "options": [
+        {
+            "name": "Spider Man",
+            "tags": [
+                "Spiderman",
+                "Marvel",
+                "Spider Man No Way Home",
+                "Spider Verse",
+                "Spidey",
+                "Peter Parker",
+                "Amazing SpiderMan",
+                "Super Hero"
+            ]
+        },
+        {
+            "name": "Bat Man",
+            "tags": [
+                "Batman",
+                "DCComics",
+                "Gotham",
+                "The Dark Knight",
+                "Super Hero",
+                "Joker",
+                "Bat mobile"
+            ]
+        },
+        {
+            "name": "Ben 10",
+            "tags": [
+                "Ben 10",
+                "omniverse",
+                "alienforce",
+                "ultimatealien",
+                "omnitrix",
+                "cartoon",
+                "kevin"
+            ]
+        },
+        {
+            "name": "Homelander",
+            "tags": [
+                "Homelander",
+                "theboys",
+                "billybutcher",
+                "starlight",
+                "stormfront",
+                "lazalonso",
+                "hughie"
+            ]
+        }
+    ]
+}

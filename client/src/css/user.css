@@ -1,0 +1,171 @@
+
+.nav-item {
+    transition: all .6s;
+}
+
+.nav-item:hover {
+    background-color: white;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, .14),
+        -2px -2px 15px rgba(0, 0, 0, .14);
+}
+
+.nav-item:not(:hover) {
+    transition: .7s;
+}
+
+.navbar-nav {
+    padding: 10px 0;
+}
+
+section {
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+#home.activeMargin {
+    margin-top: 170px;
+    transition: .5s;
+}
+
+#home {
+    height: 620px;
+    transition: .5s;
+}
+
+#home video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#home p {
+    position: absolute;
+    top: 13%;
+    right: 1%;
+    color: white;
+    letter-spacing: 4px;
+    word-spacing: 20px;
+    transition: .5s;
+    text-shadow: 0px 1px 3px #ccc,
+        0px 1px 3px #ccc, 0px 1px 3px #ccc, 0px 1px 3px #ccc, 0px 1px 3px #ccc;
+}
+
+#home p.activePosition {
+    top: 37.5%;
+    transition: .5s;
+}
+
+
+
+/* --------- About Page --------- */
+
+#about h1 {
+    text-shadow: 0px 1px 3px #000;
+}
+
+.aboutPara {
+    text-indent: 3em;
+    line-height: 27px;
+    text-align: justify;
+}
+
+.aboutPara::first-letter {
+    color: red;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+/* Search bar  */
+#nav-search-bar,
+#gallery-search-bar {
+    display: none;
+}
+
+.search-bar-input:focus~#nav-search-bar,
+.search-bar-input:focus~#gallery-search-bar,
+#nav-search-bar:hover,
+#gallery-search-bar:hover {
+    display: grid;
+    max-height: 200px;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+}
+
+#nav-search-bar li:hover, 
+#gallery-search-bar li:hover {
+    background-color: #ccc;
+    cursor: pointer;
+    border-radius: 0 50px 50px 0;
+    box-shadow: inset 3px 0 0px black;
+}
+
+
+/* ----- Gallery ------- */
+
+
+#gallery .gallery img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    transition: .5s;
+}
+
+#gallery .gallery {
+    overflow: hidden;
+}
+
+#gallery .gallery img:hover {
+    transform: scale(1.15);
+    transition: .6s;
+    cursor: pointer;
+    opacity: .9;
+}
+
+#gallerMore {
+    cursor: pointer;
+}
+
+/* ------- footer ----- */
+footer .social-medias ul li a svg:hover {
+    width: 20px;
+    fill: blue;
+}
+
+
+
+
+
+
+
+
+/* Media Querries */
+
+@media screen and (max-width:991px) {
+    #navbarSupportedContent {
+        margin: 0px -12px !important;
+    }
+
+    #navbarSupportedContent .navbar-nav {
+        background-color: rgba(0, 0, 0, .14) !important;
+    }
+}
+
+@media screen and (min-width:992px) {
+    #navbarSupportedContent {
+        margin: 0px 0px !important;
+    }
+
+    #navbarSupportedContent .navbar-nav {
+        background-color: inherit !important;
+    }
+
+    #home.activeMargin {
+        margin-top: 0px;
+        transition: .5s;
+    }
+
+    #home p {
+        top: 13% !important;
+    }
+}
